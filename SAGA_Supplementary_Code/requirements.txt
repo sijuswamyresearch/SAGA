@@ -1,0 +1,25 @@
+# PyTorch Ecosystem
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data Manipulation & Computation
+numpy>=1.21.0
+pandas>=1.5.0
+scipy>=1.9.0
+scikit-learn>=1.0.0
+
+# Image Processing & CV tasks
+Pillow>=9.0.0
+opencv-python>=4.6.0
+scikit-image>=0.19.0
+
+# DL Utilities & Metrics
+tqdm>=4.64.0
+optuna>=3.0.0
+lpips>=0.1.4
+
+# t-test & Cohen's d_z for LRP analysis
+statsmodels>=0.13.0
+
+# Visualization
+matplotlib>=3.5.0
