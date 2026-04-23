@@ -194,14 +194,14 @@ window.Quarto = {
 <p><em>Note:</em> Ensure you update the <code>MODEL_CHOICE</code> and <code>DATASET_NAME</code> variables in the configuration section of <code>train.py</code> prior to execution.</p>
 </blockquote>
 <blockquote class="blockquote">
-<p><strong>Step 4: Real-World Clinical Validation (Phase 6)</strong></p>
+<p><strong>Step 3: Real-World Clinical Validation (Phase 6)</strong></p>
 </blockquote>
 <p>To perform perceptual quality assessment on genuine acquisition artifacts (lacking pristine ground truths), place real-world unsimulated scans in the <code>data/SARS-CoV-2/</code> directory and execute:</p>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> clinical_validation.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <blockquote class="blockquote">
 <p><strong>Step 4: Explainable AI &amp; Statistical Significance (Phase 5 &amp; 7)</strong></p>
 </blockquote>
-<p>To run the rigorous interpretability analysis—including the Montavon et al.&nbsp;(2018) True LRP (<span class="math inline">\(\alpha_1\beta_0\)</span> rule), the Bhati et al.&nbsp;(2025) K-Path extraction, and the paired t-tests (with Cohen’s <span class="math inline">\(d_z\)</span>)—execute the XAI script:</p>
+<p>To run the rigorous interpretability analysis—including the Montavon et al.&nbsp;(2018) True LRP (<span class="math inline">\(\alpha_1\beta_0\)</span> rule), the Bhati et al.&nbsp;(2025) K-Path extraction, and the paired t-tests (with Cohen’s <span class="math inline">\(d_z\)</span>)— execute the XAI script:</p>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Automatically loads pre-trained weights and generates visual/statistical reports</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> xai_analysis.py <span class="at">--dataset_root</span> ./data/CT_dataset</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Outputs, including LRP heatmaps, dynamic thresholding masks, and the final statistical tables comparing SAGA against baselines, will be saved to the <code>./lrp_results_Both-K-Path/</code> directory.</p>
@@ -214,6 +214,10 @@ window.Quarto = {
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>  <span class="va">journal</span><span class="op">=</span>{Healthcare <span class="ex">Analytics},</span></span>
 <span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>  <span class="va">year</span><span class="op">=</span>{2026}</span>
 <span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="er">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="license" class="level3">
+<h3 class="anchored" data-anchor-id="license">License</h3>
+<p>This project is licensed under the MIT License - see the LICENSE file for details.</p>
 </section>
 </section>
 </section>

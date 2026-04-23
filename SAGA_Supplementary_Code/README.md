@@ -94,7 +94,7 @@ To train the architectures across the evaluation matrix, execute `train.py`. The
 
 >*Note:* Ensure you update the `MODEL_CHOICE` and `DATASET_NAME` variables in the configuration section of `train.py` prior to execution.
 
->**Step 4: Real-World Clinical Validation (Phase 6)**
+>**Step 3: Real-World Clinical Validation (Phase 6)**
 
 To perform perceptual quality assessment on genuine acquisition artifacts (lacking pristine ground truths), place real-world unsimulated scans in the `data/SARS-CoV-2/` directory and execute:
 
@@ -104,7 +104,7 @@ python clinical_validation.py
 
 >**Step 4: Explainable AI & Statistical Significance (Phase 5 & 7)**
 
-To run the rigorous interpretability analysis—including the Montavon et al. (2018) True LRP ($\alpha_1\beta_0$ rule), the Bhati et al. (2025) K-Path extraction, and the paired t-tests (with Cohen's $d_z$)—execute the XAI script:
+To run the rigorous interpretability analysis—including the Montavon et al. (2018) True LRP ($\alpha_1\beta_0$ rule), the Bhati et al. (2025) K-Path extraction, and the paired t-tests (with Cohen's $d_z$)— execute the XAI script:
 
 ```bash
 # Automatically loads pre-trained weights and generates visual/statistical reports
