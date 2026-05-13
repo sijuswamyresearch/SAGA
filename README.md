@@ -9,7 +9,7 @@ This repository contains the official `PyTorch` implementation and supplementary
 This repository provides the complete, reproducible pipeline for the **Spatially-Adaptive Gated Activation (SAGA)** operator. It includes the synthetic degradation modeling, modular CNN backbones, training routines, and the rigorous Explainable AI (XAI) statistical frameworks used to validate the architecture's preservation of high-frequency anatomical boundaries.
 
 > **Peer-Review Note:** This repository has been structured to ensure complete methodological transparency and reproducibility, directly addressing the architectural and interpretability evaluations requested during the peer-review process.
-
+ 
 ---
 
 ## 1. Repository Structure
