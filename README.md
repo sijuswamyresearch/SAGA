@@ -119,11 +119,17 @@ Outputs, including LRP heatmaps, dynamic thresholding masks, and the final stati
 If you find this code or our SAGA architecture useful in your research, please consider citing our paper:
 
 ```bash
-@article{saga2026,
-  title={An Interpretable Deep Learning Method for Medical Image Deblurring and Restoration},
-  author={Siju K S, Vipin Venugopal, Mithun Kumar Kar, and Jayakrishnan Anandakrishnan },
-  journal={Healthcare Analytics},
-  year={2026}
+@article{sijuSAGA,
+title = {An interpretable deep learning method for medical image deblurring and restoration},
+journal = {Healthcare Analytics},
+volume = {9},
+pages = {100468},
+year = {2026},
+issn = {2772-4425},
+doi = {https://doi.org/10.1016/j.health.2026.100468},
+url = {https://www.sciencedirect.com/science/article/pii/S2772442526000225},
+author = {Siju K.S. and Vipin Venugopal and Mithun Kumar Kar and Jayakrishnan Anandakrishnan},
+keywords = {Clinical decision support, Convolutional neural networks, Deep learning, Image restoration, Medical imaging, Predictive analytics}
 }
 ```
 
